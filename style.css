@@ -4,6 +4,8 @@ body {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
     color: #585962;
+     background-color:#e9ecef;
+  
 }
 
 .offset:before {
@@ -21,7 +23,7 @@ body {
     font-weight: 700;
     font-size: .9rem;
     background: rgba(0, 0, 0, .6);
-
+    color:white;
 }
 
 .navbar-nav li {
@@ -37,7 +39,7 @@ body {
 
 .navbar-dark .navbar-nav .nav-link .active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: magenta;
+    color: #9966ff;
 }
 
 /*--slider--*/
@@ -58,21 +60,17 @@ body {
 .btn-lg {
     border-width: medium;
     border-radius: 10px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 
 /*-----*/
 
-.narrow {
-    width: 75%;
-    margin: 0 auto;
-    padding-top: 2rem;
-}
+
 
 .btn-md {
     border-width: medium;
-    border-radius: 0;
+    border-radius: 15px;
     padding: .6rem 1.1rem;
     text-transform: uppercase;
     margin: 1rem;
@@ -87,12 +85,14 @@ body {
 
 }
 
-h3 .heading {
+ .heading  {
     font-size: 1.9rem;
     font-weight: 700;
     text-transform: uppercase;
     padding-bottom: 1.9rem;
+    text-align: center;
 }
+
 
 .heading-underline {
     width: 3rem;
@@ -102,39 +102,52 @@ h3 .heading {
 }
 /*--portfolio---*/
 
-.portfolio img{
-    width:30%;
-    height:30%;
-    max-width:100%;
+
+  .col-sm-4 img {
+   
     transition:transform .5s ease;
+    background-size: cover;
+   max-width:100%;
+    padding:0;
+    margin:0;
     
 }
-    .row .nop-adding [class*=col-]{
+
+.no-padding .col-sm-4
+   {
         padding:0;
     }
    
-  .portfolio img:hover {  
+.col-sm-4 img:hover {  
       transform: scale(1.1);
       cursor: zoom-in;
   }
   .portfolio {  
       overflow:hidden;
-      
-      
+  }   
+.wrapper {
+      background-color:#e9ecef;
   }
-      
+   /*---text --some of ower work --*/
+  
+  .lead{
+      padding:.4rem;
+  }
+      /*team----*/
       .card {
           margin: 2rem;
+         
       }
       
       /*---contact--*/
     
     footer {
-    
+    text-align:center;
     background-color:#40474e;
     color:white;
     padding: 2rem 0 3rem;
     margin-top: 1rem;
+    width:100%;
     }
     
     footer a {
@@ -147,7 +160,7 @@ h3 .heading {
     }
     
     footer svg.svg-inline--fa:hover {
-        color:#1ebba3;
+        color:#9966ff;
     }
     
     hr.socket{
@@ -161,10 +174,5 @@ h3 .heading {
    .btn-lg {
        font-size: 1.1rem;
    }
-
-
-   
-
-/*team----*/
 
 }
