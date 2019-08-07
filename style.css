@@ -30,6 +30,7 @@ body {
     font-size: .9rem;
     background: rgba(0, 0, 0, .6);
     color:white;
+  
 }
 
 .navbar-nav li {
@@ -45,7 +46,7 @@ body {
 
 .navbar-dark .navbar-nav .nav-link .active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #9966ff;
+    color: #f54295;
 }
 
 /*--slider--*/
@@ -148,12 +149,22 @@ body {
   
   .lead{
       padding:.4rem;
+      
+ 
   }
       /*team----*/
       .card {
           margin: 2rem;
          
       }
+      
+      p {
+         
+           text-align:center;
+           margin-right:3rem;
+           margin-left:3rem;
+      }
+      
       
       /*---contact--*/
     
@@ -177,7 +188,7 @@ body {
     }
     
     footer svg.svg-inline--fa:hover {
-        color:#9966ff;
+        color:#f54295;
     }
     
     hr.socket{
